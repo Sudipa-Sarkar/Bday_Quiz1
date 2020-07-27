@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/debu1"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="HAPPY BIRTHDAY DEBANJAN"
+        android:textColor="#FFC107"
+        android:textSize="35dp"
+        app:fontFamily="@font/amatica_sc_bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="Guess who said what?"
+        android:textColor="#156285"
+        android:textSize="25sp"
+        app:fontFamily="@font/aclonica" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="START"
+        android:background="@color/colorAccent"
+        android:textColor="#9C27B0" />
+</RelativeLayout>
